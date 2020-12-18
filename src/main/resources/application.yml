@@ -1,0 +1,10 @@
+server:
+    port: 9097
+
+spring:
+    application:
+        name: my-elasticsearch
+
+    elasticsearch:
+        rest:
+            uris: http://localhost:9200
